@@ -1,4 +1,5 @@
 import { API_POSTS } from "./constans";
+
 export async function getData() {
    try {
       const response = await fetch(API_POSTS);
