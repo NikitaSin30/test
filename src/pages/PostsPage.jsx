@@ -2,7 +2,6 @@ import React from "react"
 import Post from "../widjets/Post"
 import { getData } from "../shared/api/getPosts"
 
-
 function PostsPage () {
     const [posts,setPosts] = React.useState([])
     const quantityShowPosts = 20;
